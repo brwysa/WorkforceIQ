@@ -1,6 +1,6 @@
 # HR-AI Job Optimization Application
 
-![Home Page](https://github.com/brwysa/HR-AI/blob/main/app/static/images/Home%20Page.png?raw=true)
+![Home Page](https://github.com/brwysa/WorkforceIQ/blob/main/app/static/images/Home%20Page.png)
 ## Overview:
 The AI Job Optimization Application is a cutting-edge tool designed to help organizations enhance their workforce efficiency and productivity. By leveraging artificial intelligence algorithms, the application analyzes current job responsibilities within the organization and generates optimized versions tailored to meet the company's specific goals and objectives. Additionally, the application provides insights into skill set requirements for each division and conducts a comprehensive gap analysis to identify areas for skill development or hiring.
 
