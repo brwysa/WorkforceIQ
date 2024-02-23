@@ -1,0 +1,41 @@
+ibm-watson-machine-learning==1.0.327
+numpy==1.24.2
+pandas==1.5.3
+plotly==5.15.0.0
+requests==2.31.0
+# urllib3==1.26.11.2.2.4
+# openpyxl==3.1.2.5
+# python-docx==1.1.0.35
+# pymupdf==1.23.7
+# mplfinance==0.12.10b0
+kaleido==0.2.1
+flask
+gunicorn
+waitress
+python-docx
+# chromadb==0.4.15
+# ipywidgets==8.0.7
+# jupyter==1.0.0
+# langchain==0.0.236
+#matplotlib==3.7.2
+#pypdf==3.12.2
+#python-dotenv==1.0
+#rouge==1.0.1
+#scikit-learn==1.2
+#sentence-transformers==2.2
+#streamlit==1.30.0
+#safetensors==0.3.1
+#faiss-cpu==1.7
+#deep_translator==1.11.4
+#pymilvus==2.3.2
+#yfinance==0.2.35
+#beautifulsoup4==4.12.2
+#yahooquery==2.3.3
+#streamlit-extras==0.3
+#millify==0.1.1
+#news-please==1.5
+#streamlit_code_editor==0.1.10
+# httpx==0.19.0
+# httpx_sse==0.4.0
+#pymongo==3.12.3
+#GoogleNews==1.6.12

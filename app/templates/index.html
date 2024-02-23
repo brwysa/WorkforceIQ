@@ -1,0 +1,601 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>HR AI Assistant</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+        <link href="{{ url_for('static', filename='css/bootstrap-icons.css') }}" rel="stylesheet">
+
+        <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">      
+
+        <link rel="icon" href="{{ url_for('static', filename='clipboard.ico') }}" type="image/x-icon">
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    
+    <body id="top">
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a href="index.html">
+                        <p style="margin-bottom: 0;" class="no-margin">ABC Company</p>
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-auto me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">Recommendations</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Reasoning</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">Current Job</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">watsonx Job</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
+
+                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#section_8">Job Gap</a></li>
+                                    <li><a class="dropdown-item" href="#section_6">Skill Set</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+
+            <section class="hero-section d-flex offset-navbar justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row mb-4">
+                        <h3 class="text-white">Revolutionize workforce optimization.</h4>
+                        <div class="col-lg-7 d-flex align-items-center">
+                            <p class="text-white">Unlock unparalleled insights into orgazational or departemental job structures with the precision of IBM AI analysis.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 d-flex align-items-center justify-content-start">
+                            <p class="text-white small">Department</p>
+                        </div>
+                        <div class="col-lg-3 d-flex align-items-center justify-content-start">
+                            <p class="text-white small">Division</p>
+                        </div>
+                        <div class="col-lg-3 d-flex align-items-center justify-content-start">
+                            <p class="text-white small">Upload files</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                            <form method="post" action="{{ url_for('process_category_form') }}" class="form-control custom-form pt-2 mb-lg-0" role="search" id="categoryForm">
+                                <div class="input-group input-group-lg">
+                                    <select name="category" onchange="$('#categoryForm').submit();" class="form-select" aria-label="Category" id="categorySelect">
+                                        <option value="none" {% if session.get('selected_category') == 'none' %}selected{% endif %}>Choose a department</option>
+                                        <option value="Finance" {% if session.get('selected_category') == 'Finance' %}selected{% endif %}>Finance</option>
+                                        <option value="Operations" {% if session.get('selected_category') == 'Operations' %}selected{% endif %}>Operations</option>
+                                        <option value="Sales Marketing" {% if session.get('selected_category') == 'Sales Marketing' %}selected{% endif %}>Sales Marketing</option>
+                                        <option value="Sales Platform" {% if session.get('selected_category') == 'Sales Platform' %}selected{% endif %}>Sales Platform</option>
+                                        <option value="Sales and Sales Support" {% if session.get('selected_category') == 'Sales and Sales Support' %}selected{% endif %}>Sales and Sales Support</option>
+                                        <option value="Tech" {% if session.get('selected_category') == 'Tech' %}selected{% endif %}>Tech</option>                                        
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+            
+                        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                            <form method="post" action="{{ url_for('process_division_form') }}" class="form-control custom-form pt-2 mb-lg-0" role="search" id="divisionForm">
+                                <div class="input-group input-group-lg">
+                                    <select name="division" class="form-select" onchange="$('#divisionForm').submit();" aria-label="division" id="secondDropdown">
+                                        <option value="haha">Choose a division</option>
+                                        {% for name in combined_div_names %}
+                                            <option value="{{ name }}" {% if session.get('selected_division') == name %}selected{% endif %}>{{ name }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                            <form action="/upload" class="form-control pt-2 mb-lg-0 mb-5" method="post" enctype="multipart/form-data" id="documentUpload">
+                                <div class="input-group upload input-group-lg">
+                                    <input type="file" name="files[]" id="fileInput" onchange="$('#documentUpload').submit();" multiple accept=".docx">
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-lg-2 d-flex align-items-center text-center justify-content-start">
+                            <form method="post" action="{{ url_for('reset_session') }}">
+                                <button type="submit" class="custom-btn reset">Reset</button>
+                            </form>
+                            <!-- <p class="text-white">Only .docx format accepted</p> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 d-flex align-items-center justify-content-start">
+                        </div>
+                        <div class="col-lg-3 d-flex align-items-center justify-content-start">
+                        </div>
+                        <div class="col-lg-3 d-flex align-items-center justify-content-start">
+                            <p class="text-white small">Only .docx accepted</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+
+
+            <section class="gradient-section">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12">
+                            <h3 class="mb-4 mt-4 text-center">Organizational Structure Comparison</h3>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12 mt-3 mb-4 mb-lg-0">
+                            <div class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <div class="mb-4 curr-struct">
+                                            <h5 class="curr-struct-text text-center align-items-center">Current Structure</h5>
+                                        </div>
+                                        <h6 class="mb-2">
+                                            {{ session['selected_category'] }}
+                                        </h6>
+                                        {% if asis_div_names %}
+                                        <ul>
+                                            {% for name in asis_div_names %}
+                                                <li class="">{{ loop.index }}. {{ name }}</li>                                        
+                                            {% endfor %}
+                                        </ul>
+                                        {% else %}
+                                        <p>Please choose a department first.</p>
+                                        {% endif %}
+                                    </div>
+
+                                    <span class="ms-auto">
+                                        <p>ABC Company</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12 mt-lg-3">
+                            <div class="custom-block custom-block-overlay">
+                                <div class="d-flex flex-column h-100">
+
+                                    <div class="custom-block-overlay-text d-flex">
+                                        <div>
+                                            <div class="mb-4 ai-struct">
+                                                <h5 class="ai-struct-text text-center align-items-center">AI Recommendation</h5>
+                                            </div>
+
+                                            <h6 class="text-white mb-2">
+                                                {{ session['selected_category'] }}
+                                            </h6>
+                                            {% if ideal_div_names %}
+                                            <ul>
+                                                {% for name in ideal_div_names %}
+                                                    <li class="text-white">{{ loop.index }}. {{ name }}</li>                                        
+                                                {% endfor %}
+                                            </ul>
+                                            {% else %}
+                                            <p class="text-white">Please choose a department first.</p>
+                                            {% endif %}
+                                        </div>
+
+                                        <span class="ms-auto">
+                                            <img src="{{ url_for('static', filename='images/watsonx.png') }}" class="watsonx" alt="">
+                                        </span>
+                                    </div>
+                                    <div class="section-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center">
+                            <h3 class="mb-2">Divisions</h3>
+                        </div>
+                        
+                        <div class="custom-block custom-block-topics-listing structure-ai shadow-lg mb-5" id="section_2">
+                            <div class="d-flex">
+                                <img src="{{ url_for('static', filename='images/topics/recommendationimg.png') }}" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block-topics-listing-info d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Recommendations</h5>
+
+                                    {% if recommendations %}
+                                        {% if recommendations|length==1 %}
+                                            {% set recommendations = recommendations|replace('[', '')|replace(']', '')|replace("'",'') %}
+                                            <p class="mb-0">{{ recommendations }}</p>
+                                            <span class="float-end">
+                                                <i class="bi bi-hand-thumbs-up-fill thumbs-up" onclick="saveJob('{{ string_recommendations }}', 'thumbs-up', this)"></i>
+                                                <i class="bi bi-hand-thumbs-down-fill thumbs-down" onclick="saveJob('{{ string_recommendations }}', 'thumbs-down',this)"></i>
+                                            </span>
+                                        {% else %}
+                                            <p class="mb-0">
+                                                <ul>
+                                                    {% for recommend in recommendations %}
+                                                        <li>{{ loop.index }}. {{ recommend }}</li>         
+                                                    {% endfor %}
+                                                </ul>
+                                            </p>
+                                            <span class="float-end">
+                                                <i class="bi bi-hand-thumbs-up-fill thumbs-up" onclick="saveJob('{{ string_recommendations }}', 'thumbs-up', this)"></i>
+                                                <i class="bi bi-hand-thumbs-down-fill thumbs-down" onclick="saveJob('{{ string_recommendations }}', 'thumbs-down',this)"></i>
+                                            </span>
+                                        {% endif %}
+                                    {% else %}
+                                        <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                                        <p class="mb-0">Explanation currently unavailable. Please select a department and then choose a division within the department to receive the explanation.
+                                        </p>
+                                    {% endif %}
+                                    </div>
+
+                                    <span class="ms-auto">
+                                        <img src="{{ url_for('static', filename='images/ai.png') }}" class="" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="custom-block custom-block-topics-listing structure-ai shadow-lg mb-5" id="section_3">
+                            <div class="d-flex">
+                                <img src="{{ url_for('static', filename='images/topics/undraw_Podcast_audience_re_4i5q.png') }}" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block-topics-listing-info d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Reasoning</h5>
+                                        {% if reasoning %}
+                                            <p class="mb-0">{{ reasoning }}</p>
+                                        {% elif recommendations %}
+                                        <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                                        <p class="mb-0">This department has been suggested to merge with another department.</p>
+                                        {% else %}
+                                            <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                                            <p class="mb-0">Explanation currently unavailable. Please select a department and then choose a division within the department to receive the explanation.</p>
+                                        {% endif %}
+                                    </div>      
+                                    
+                                    <span class="ms-auto">
+                                        <img src="{{ url_for('static', filename='images/ai.png') }}" class="" alt="">
+                                    </span>                             
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-12 mt-3 mx-auto">
+                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5" id="section_4">
+                                <div class="d-flex">
+                                    <img src="{{ url_for('static', filename='images/topics/undraw_Remote_design_team_re_urdx.png') }}" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Current Job Responsibilities</h5>
+
+                                            {% if asis_job %}
+                                            <div class="job-carousel">
+                                                <ul class="job-list">
+                                                    {% for job in asis_job %}
+                                                        <li>{{ job }}</li>
+                                                    {% endfor %}
+                                                </ul>
+                                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                                    <div class="d-flex align-items-center">
+                                                        <button class="prev-btn" onclick="scrollToPrevJob()">
+                                                            <i class="bi bi-chevron-left"></i>
+                                                        </button>
+                                                        <button class="next-btn" onclick="scrollToNextJob()">
+                                                            <i class="bi bi-chevron-right"></i>
+                                                        </button>
+                                                    </div>
+                                                    <span id="job-counter"></span> <!-- This will display the current job count -->
+                                                </div>     
+                                            </div>                                                                           
+                                            {% else %}
+                                                <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                                                <p class="mb-0">Explanation currently unavailable. Please select a department and then choose a division within the department to receive the explanation.
+                                                </p>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-block custom-block-topics-listing structure-ai shadow-lg mb-5" id="section_5">
+                                <div class="d-flex">
+                                    <img src="{{ url_for('static', filename='images/topics/undraw_online_ad_re_ol62.png') }}" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Job Responsibilities</h5>
+                                            
+                                            {% if recommend_job %}
+                                            <div class="job-carousel-ideal">
+                                                <ul class="job-list-ideal">
+                                                    {% for job in recommend_job %}
+                                                    <li>
+                                                        {{ job }}
+                                                        <span class="float-end">
+                                                            <i class="bi bi-hand-thumbs-up-fill thumbs-up" onclick="saveJob('{{ job }}', 'thumbs-up', this)"></i>
+                                                            <i class="bi bi-hand-thumbs-down-fill thumbs-down" onclick="saveJob('{{ job }}', 'thumbs-down',this)"></i>
+                                                        </span>
+                                                    </li>
+                                                    {% endfor %}
+                                                </ul>
+                                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                                    <div class="d-flex align-items-center">
+                                                        <button class="prev-btn" onclick="scrollToPrevIdealJob()">
+                                                            <i class="bi bi-chevron-left"></i>
+                                                        </button>
+                                                        <button class="next-btn" onclick="scrollToNextIdealJob()">
+                                                            <i class="bi bi-chevron-right"></i>
+                                                        </button>
+                                                    </div>
+                                                    <span id="job-counter-ideal"></span> <!-- This will display the current job count -->
+                                                </div>     
+                                            </div>     
+                                            {% elif recommendations %}
+                                            <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                                            <p class="mb-0">This department has been suggested to merge with another department.</p>
+                                            {% else %}
+                                                <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                                                <p class="mb-0">Explanation currently unavailable. Please select a department and then choose a division within the department to receive the explanation.
+                                                </p>
+                                            {% endif %}
+
+        
+                                        </div>
+
+                                        <span class="ms-auto">
+                                            <img src="{{ url_for('static', filename='images/ai.png') }}" class="" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-12 mt-3 mx-auto">
+                                <div class="custom-block custom-block-topics-listing structure-ai shadow-lg mb-5" id="section_8">
+                                    <div class="d-flex">
+                                        <img src="{{ url_for('static', filename='images/topics/gap_analysis.png') }}" class="custom-block-image img-fluid" alt="">
+    
+                                        <div class="custom-block-topics-listing-info d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Job Gap Analysis</h5>
+    
+                                                {% if jobgap %}
+                                                    {% for job in jobgap %}
+                                                    <p>{{ loop.index }}. {{ job }}</p>
+                                                    {% endfor %}
+                                                {% elif recommendations %}
+                                                    <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                                                    <p class="mb-0">This department has been restructured.</p>
+                                                {% else %}
+                                                    <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                                                    <p class="mb-0">Explanation currently unavailable. Please select a department and then choose a division within the department to receive the explanation.
+                                                    </p>
+                                                {% endif %}
+                                            </div>
+    
+                                            <span class="ms-auto">
+                                                <img src="{{ url_for('static', filename='images/ai.png') }}" class="" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <div class="custom-block custom-block-topics-listing structure-ai shadow-lg mb-5" id="section_6">
+                                <div class="d-flex">
+                                    <img src="{{ url_for('static', filename='images/topics/skill.png') }}" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Skill Set Requirements</h5>
+                                            
+                                            {% if skill_map %}
+                                                <p class="mb-0">
+                                                    {% for category in skill_map %}
+                                                        <p>{{ category }}</p>
+                                                    {% endfor %}
+                                                </p>
+                                            {% elif recommendations %}
+                                                <i class="bi bi-exclamation-triangle-fill text-warning fs-3"></i>
+                                                <p class="mb-0">This department has been suggested to merge with another department.</p>
+                                            {% else %}
+                                                <i class="bi bi-exclamation-triangle-fill text-warning fs-3 fs-3"></i>
+                                                <p class="mb-0">Explanation currently unavailable. Please select a department and then choose a division within the department to receive the explanation.
+                                                </p>
+                                            {% endif %}
+                                            
+                                        </div>
+
+                                        <span class="ms-auto">
+                                            <img src="{{ url_for('static', filename='images/ai.png') }}" class="" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5" id="section_7">
+                                <div class="d-flex">
+                                    <h5 class="mb-2">Revenue Prediction Graph</h5>
+                                    <-- <div id="chart" class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5"> -->
+                                        <!-- {{ graphJSON }} -->
+                                        <!-- The graph will be inserted here -->
+                                    <!-- </div> -->
+                                    <!-- {% if not recommendations %}
+                                    {% else %}
+                                        <div>
+                                            <img src="{{ url_for('static', filename='plot.png') }}" alt="Plot Image" class="scaled-image">
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>  -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script type="text/javascript">
+
+            var graphJSON = JSON.parse('{{ graphJSON | safe | tojson | safe }}');
+
+            // here is where the JSON gets plugged in via JS
+            // put your graph in the second, and set the third as {}
+            Plotly.plot('chart', graphJSON, {});
+
+            function saveJob(job, action, element) {
+                element.classList.toggle('clicked');
+                // Send AJAX request to Flask route
+                console.log("Success")
+                $.ajax({
+                    type: "POST",
+                    url: "/save_job",
+                    data: {job: job, action: action},
+                    success: function(response) {
+                        console.log("Success 2"); // Log server response
+                    }
+                });
+            }
+        </script>
+        <script defer>
+            // Define your JavaScript code
+            const jobList = document.querySelector(".job-list");
+            let currentIndex = 0;
+            const numJobs = document.querySelectorAll(".job-list li").length;
+            const jobWidth = document.querySelector(".job-list li").offsetWidth;
+                    
+            let intervalId;
+
+            // Function to scroll to the next job
+            function scrollToNextJob() {
+                currentIndex = (currentIndex + 1) % numJobs;
+                const scrollAmount = currentIndex * jobWidth;
+                jobList.style.transform = `translateX(-${scrollAmount}px)`;
+                clearInterval(intervalId); // Clear the interval
+                intervalId = setInterval(scrollToNextJob, 5000); // Set the interval again
+                updateJobCount();
+            }
+        
+            // Function to scroll to the previous job
+            function scrollToPrevJob() {
+                currentIndex = (currentIndex - 1 + numJobs) % numJobs;
+                const scrollAmount = currentIndex * jobWidth;
+                jobList.style.transform = `translateX(-${scrollAmount}px)`;
+                clearInterval(intervalId); // Clear the interval
+                intervalId = setInterval(scrollToNextJob, 5000); // Set the interval again
+                updateJobCount();
+            }
+
+            // Function to update the job count
+            function updateJobCount() {
+                document.getElementById('job-counter').innerText = `${currentIndex + 1} / ${numJobs}`;
+            }
+
+            // Auto scroll to the next job every 5 seconds
+            intervalId = setInterval(scrollToNextJob, 5000);
+
+            updateJobCount();
+        </script>
+         <script defer>
+            // Define your JavaScript code
+            const jobListIdeal = document.querySelector(".job-list-ideal");
+            let currentIndexIdeal = 0;
+            const numJobsIdeal = document.querySelectorAll(".job-list-ideal li").length;
+            const jobWidthIdeal = document.querySelector(".job-list-ideal li").offsetWidth;
+                    
+            let intervalIdIdeal;
+
+            // Function to scroll to the next job
+            function scrollToNextIdealJob() {
+                currentIndexIdeal = (currentIndexIdeal + 1) % numJobsIdeal;
+                const scrollAmountIdeal = currentIndexIdeal * jobWidthIdeal;
+                jobListIdeal.style.transform = `translateX(-${scrollAmountIdeal}px)`;
+                clearInterval(intervalIdIdeal); // Clear the interval
+                intervalIdIdeal = setInterval(scrollToNextIdealJob, 5000); // Set the interval again
+                updateIdealJobCount();
+            }
+        
+            // Function to scroll to the previous job
+            function scrollToPrevIdealJob() {
+                currentIndexIdeal = (currentIndexIdeal - 1 + numJobsIdeal) % numJobsIdeal;
+                const scrollAmountIdeal = currentIndexIdeal * jobWidthIdeal;
+                jobListIdeal.style.transform = `translateX(-${scrollAmountIdeal}px)`;
+                clearInterval(intervalIdIdeal); // Clear the interval
+                intervalIdIdeal = setInterval(scrollToNextIdealJob, 5000); // Set the interval again
+                updateIdealJobCount();
+            }
+
+            // Function to update the job count
+            function updateIdealJobCount() {
+                document.getElementById('job-counter-ideal').innerText = `${currentIndexIdeal + 1} / ${numJobsIdeal}`;
+            }
+
+            // Auto scroll to the next job every 5 seconds
+            intervalIdIdeal = setInterval(scrollToNextIdealJob, 5000);
+
+            updateIdealJobCount();
+        </script>
+        <!-- JAVASCRIPT FILES -->
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.sticky.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/click-scroll.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    </body>
+</html>

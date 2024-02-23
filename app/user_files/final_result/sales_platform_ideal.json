@@ -1,0 +1,83 @@
+{
+  "departments": [
+    {
+      "name": "Platform Designer",
+      "recommendedJobResponsibilities": [
+        "Ensure a cohesive modern aesthetic and clean look/feel in all design elements affecting our products while ensuring their brand attributes are consistently represented.",
+        "Translate UX Lo-Fi, user-flow/scenario & cases into a usable high-fidelity concepts and design in a creative and visual way that engages its audience.",
+        "Collaborate with Product Managers, Engineers, Researchers, and Designers team members on interaction design framework and execution to ensure seamless transition between user experience design and visual design.",
+        "Provide rationalize and justify design work and advocate for users’ needs by communicating design intent to both internal and external teams.",
+        "Proposed visual design concepts using variety of methods, including but not limited to prototypes to static screens with flow.",
+        "Establish and maintain best practices and design methods for art direction and stay abreast of rich media techniques, emerging technologies, research future trends and competitor strategy.",
+        "Participate in user experience research and usability studies.",
+        "Work across various lifecycle stages of a product, from new products to continuous product improvements through agile (scrum) process."
+      ],
+      "reasoning": "The job responsibilities of the Platform Designer and Platform Engineer have some similarities, such as designing user interfaces and collaborating with cross-functional teams. However, the Platform Designer focuses more on the visual design and user experience, while the Platform Engineer focuses more on the technical implementation of the design."
+    },
+    {
+      "name": "Platform Engineer",
+      "recommendedJobResponsibilities": [
+        "Design and develop user interfaces that enhance the overall user experience.",
+        "Collaborate with cross-functional teams to understand user requirements and translate them into intuitive and visually appealing interface designs.",
+        "Utilize software technologies such as JavaScript, Flash, XML, HTML, and CSS to implement UX designs.",
+        "Document UX designs, guidelines, and best practices for reference and future use.",
+        "Conduct usability testing sessions and user research activities to gather feedback and iterate on design solutions.",
+        "Analyze and interpret analytics data to identify areas for UX enhancement and optimize user interactions.",
+        "Stay up-to-date with emerging UX design trends, technologies, and industry best practices.",
+        "Collaborate with developers, designers, and product managers to ensure seamless integration of the UX with the overall application."
+      ],
+      "reasoning": "The job responsibilities of the Platform Engineer and the Product Manager have some similarities, such as collaborating with cross-functional teams and ensuring seamless integration of the UX with the overall application. However, the Platform Engineer focuses more on the technical implementation of the design, while the Product Manager focuses more on the overall product strategy and user needs."
+    },
+    {
+      "name": "Product Manager",
+      "recommendedJobResponsibilities": [
+        "Acts as the subject matter expert of the product.",
+        "Conduct extensive competitive product evaluations and analysis.",
+        "Evangelize ideas that solve real customer problems.",
+        "Gather user/customers feedback to deeply understand their needs.",
+        "Collaborate with technology, trade partnership, operation, and marketing to craft solutions to customer needs.",
+        "Rapidly formulate concrete features that address needs and requirements expressed by internal users and customers.",
+        "Write clear, concise product requirements and user stories.",
+        "Document product functionality and communicate to users.",
+        "Review user stories to ensure that the delivery is the same as initial requirements.",
+        "Review scenario tests for the improvements, features, and projects to ensure that the delivery is the same as initial requirements.",
+        "Attend & lead agile product development process including backlog grooming, sprint planning and prioritization sessions and daily stand-ups."
+      ],
+      "reasoning": "The job responsibilities of the Product Manager and the Researcher have some similarities, such as gathering user feedback and conducting research. However, the Product Manager focuses more on the overall product strategy and user needs, while the Researcher focuses more on conducting research to provide actionable insights to help develop ABC's customer experience."
+    },
+    {
+      "name": "Researcher",
+      "recommendedJobResponsibilities": [
+        "Observe and analyze user behavior to provide actionable insights to help develop ABC's customer experience.",
+        "Conduct generative and foundational user research that will serve as the basis for new ideas and concepts, product roadmap, discovery, and initiative backlog to develop product and feature improvements.",
+        "Synthesize qualitative and quantitative data to provide key business and customer insights to product teams.",
+        "Collaborate with designer, product manager and other parties that related to construct design prototypes, evaluate, and incorporate results directly into design iterations and product decision-making.",
+        "Serve as a consultant to UX, Product Manager and other key stakeholders and teams.",
+        "Establish and maintain best practices, methods stay abreast of emerging technologies, research future trends and competitor strategy.",
+        "Create new and adapt existing research methods and practices to deliver customer knowledge and advocate research findings to diverse audiences through written reports and oral presentations.",
+        "Monitor and track user issues to UX and product team and management."
+      ],
+      "reasoning": "The job responsibilities of the Researcher and the UX Researcher have some similarities, such as conducting research and providing actionable insights. However, the Researcher focuses more on observing and analyzing user behavior, while the UX Researcher focuses more on conducting research to provide actionable insights to help develop ABC's customer experience."
+    },
+    {
+      "name": "UX Researcher",
+      "recommendedJobResponsibilities": [
+        "Conduct generative and foundational user research that will serve as the basis for new ideas and concepts, product roadmap, discovery, and initiative backlog to develop product and feature improvements.",
+        "Synthesize qualitative and quantitative data to provide key business and customer insights to product teams.",
+        "Collaborate with designer, product manager and other parties that related to construct design prototypes, evaluate, and incorporate results directly into design iterations and product decision-making.",
+        "Serve as a consultant to UX, Product Manager and other key stakeholders and teams.",
+        "Establish and maintain best practices, methods stay abreast of emerging technologies, research future trends and competitor strategy.",
+        "Create new and adapt existing research methods and practices to deliver customer knowledge and advocate research findings to diverse audiences through written reports and oral presentations.",
+        "Monitor and track user issues to UX and product team and management."
+      ],
+      "reasoning": "The job responsibilities of the UX Researcher and the Researcher have some similarities, such as conducting research and providing actionable insights. However, the UX Researcher focuses more on conducting research to provide actionable insights to help develop ABC's customer experience, while the Researcher focuses more on observing and analyzing user behavior."
+    }
+  ],
+  "recommendation": [
+    "Ensure a cohesive modern aesthetic and clean look/feel in all design elements affecting our products while ensuring their brand attributes are consistently represented.",
+    "Design and develop user interfaces that enhance the overall user experience.",
+    "Act as the subject matter expert of the product and gather user/customers feedback to deeply understand their needs.",
+    "Observe and analyze user behavior to provide actionable insights to help develop ABC's customer experience.",
+    "Conduct generative and foundational user research that will serve as the basis for new ideas and concepts, product roadmap, discovery, and initiative backlog to develop product and feature improvements."
+  ]
+}

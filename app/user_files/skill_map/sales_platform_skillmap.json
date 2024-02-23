@@ -1,0 +1,48 @@
+
+    {
+        "Platform Designer": [
+            "Visual Design",
+            "User experience (UX) Design",
+            "Interaction Design",
+            "Prototyping",
+            "Design Systems",
+            "Design Tools",
+            "Design Principles"
+        ],
+        "Platform Engineer":[
+            "JavaScript",
+            "Flash",
+            "XML",
+            "HTML",
+            "CSS",
+            "UX Design",
+            "User interface (UI) Development",
+            "Front-end Development"
+        ],
+        "Product Manager":
+        [
+            "Product Development",
+            "Product Management",
+            "Market Research",
+            "Competitive Analysis",
+            "Customer Feedback",
+            "User Stories",
+            "Agile Methodology"
+        ],
+        "Researcher":[
+            "User Research",
+            "Generative Research",
+            "Foundational Research",
+            "Qualitative Data Analysis",
+            "Quantitative Data Analysis",
+            "User Behavior Analysis",
+            "Design Thinking"
+        ],
+        "UX Researcher":[
+            "User research skills",
+            "Data analysis skills",
+            "Data visualization skills",
+            "Communication and presentation skills",
+            "Research methodology skills"
+        ]
+    }

@@ -1,0 +1,81 @@
+[
+    {
+        "department": "Data",
+        "JobResponsibilities": [
+            "Deliver Predictive Analytics, Data Mining and Machine Learning driven solutions",
+            "Identify, analyse, and interpret trends or patterns in complex data sets",
+            "Build complex data sets from multiple data sources, both internally and externally.",
+            "Build machine learning models to solve business/product problems or requirements in ecommerce and digital marketing domains",
+            "Understand business use cases, create appropriate training and test data sets from multiple data sources, carry out model validation exercises and fine tune models for accuracy",
+            "Use visualization techniques and tools to present actionable insights to business users",
+            "Keep up-to-date with latest technology trends",
+            "Mentoring junior team members on technical subjects",
+            "Working in a team environment, interact with multiple groups on a daily basis",
+            "Recruit staff to include interviewing, hiring, assigning work, training, coaching and mentoring",
+            "Conducts performance review and holds staff accountable for performance of their responsibility",
+            "Conducts weekly/monthly one on one as forum to connect with the team member",
+            "Maintain a good relationship with other senior management",
+            "Plan & manage roadmap for Data Projects"
+        ]
+    },
+    {
+        "department": "Developer",
+        "JobResponsibilities": [
+            "Manage the prioritization and work assignment among different development groups/development leads",
+            "Act as a central point of communication between the team and the stakeholders of other department: Product Management, Program and Project Management",
+            "Identify, manage and mitigate risk throughout the project lifecycle and keep stakeholders aware of risks/progress",
+            "Coach, motivate, lead and supervise software development team members",
+            "Work with the team to improve development processes, policies, tools and practices to ensure they are in alignment with the department priorities and industry best practices",
+            "Recruit staff to include interviewing, hiring, assigning work, training, coaching and mentoring",
+            "Conducts performance review and holds staff accountable for performance of their responsibility",
+            "Conducts weekly/monthly one on one as forum to connect with team members",
+            "Have some business skills specifically in the area of e-commerce for Indonesia market",
+            "Able to describe technology in simple form where non technical person can understand",
+            "Proactively seek solution to a problem (either internally found or customer reported issue)",
+            "Create creative solution either on standalone system or overall system",
+            "Improve operations by conducting systems analysis; recommending changes in policies and procedures",
+            "Updates job knowledge by studying state of the art development tools, programming techniques and computing equipment; participating in educational opportunities; reading professional publications; maintaining personal networks; participating in professional organizations",
+            "Protect operations by keeping information confidential",
+            "Maintain excellent coding practices, verbal and written communication skills"
+        ]
+    },
+    {
+        "department": "Head of Infrastructure & Technical Support",
+        "JobResponsibilities": [
+            "Responsible for the creation, design, management, monitoring, and support of the IT infrastructure (networks, database and server) and services, supporting architecture and roadmaps to ensure the selection, deployment and lifecycle management of appropriate services for the organization.",
+            "Develop and implement IT policies and architectural and design standards with respect to network, compute, storage, and cloud services.",
+            "Develop enterprise standards and technology architecture and the IT operations governance process.",
+            "Manages IT infrastructure work and resource demands in an orderly manner, supplying resources for new projects and work requests, and ensuring that solutions proposed are aligned with the applications strategy.",
+            "Resolve complex technical issues and provide senior technical leadership in response to queries from across the business as well as from within IT.",
+            "Participate in the formulation of the company's enterprise architecture and business system plans; assessing cost and feasibility, and ensuring the plan is aligned with and supports the strategic goals of the business.",
+            "Manages the performance objectives and development team including the monitoring, review and validation of individual training and development plans in line with organizational and business requirements.",
+            "Lead, managed and develop team to maximize productivity, ensure the skills pool is current and relevant to the requirements of the organization, enhance job satisfaction, promote career development and implement effective succession planning."
+        ]
+    },
+    {
+        "department": "Software Quality",
+        "JobResponsibilities": [
+            "Recruit staff to include interviewing, hiring, assigning work, training, coaching and mentoring",
+            "Conducts performance review and holds staff accountable for performance of their responsibility",
+            "Conducts weekly/monthly one on one as forum to connect with the team member",
+            "Have some business skills specifically in the area of e-commerce for Indonesia market",
+            "Manage, prioritize and execute multiple concurrent software testing activities",
+            "Identify, manage and mitigate risk throughout the project lifecycle and keep stakeholders aware of risks/progress",
+            "Subject matter expert, go to person of the field",
+            "Able to describe how the testing procedure is being done in simple form where a non-technical person can understand",
+            "Proactively seek solution by reproducing a problem (either internally found or customer reported issue)",
+            "Create creative solution to any problem preventing automation test",
+            "Train and mentor to SDET (Software Development Engineer and Test)",
+            "Participate in measuring and driving product quality from inception to release",
+            "Participate in measuring system performance and communicate if there is a drop on performance",
+            "Communication with the system analyst on the requirement",
+            "Assessment to user experience and usability",
+            "Responsible for the quality of the selected product features",
+            "Design and develop manual or automated test systems to validate functionality, performance, stability and security of past and current features",
+            "Updates job knowledge by studying state of the art development tools, programming techniques and computing equipment; participating in educational opportunities; reading professional publications; maintaining personal networks; participating in professional organizations",
+            "Protect operations by keeping information confidential",
+            "Accomplishes engineer and organization mission by completing related results as needed",
+            "Maintain discipline of written report which captures the week's accomplishments and issues"
+        ]
+    }
+]

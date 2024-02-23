@@ -1,0 +1,47 @@
+{
+        "Data": [
+            "Strong analytical and problem-solving skills",
+            "Proficiency in data analysis and machine learning tools",
+            "Ability to work with large datasets and extract meaningful insights",
+            "Strong communication skills to present findings to stakeholders",
+            "Familiarity with data visualization tools",
+            "Understanding of business use cases and ability to identify opportunities for data-driven decision making",
+            "Ability to mentor junior team members and lead by example",
+            "Strong understanding of data privacy and security principles"
+        ],
+        "Developer":[
+            "Strong programming skills in languages such as Java, Python, or C++",
+            "Experience with agile software development methodologies",
+            "Ability to work collaboratively in a team environment",
+            "Strong problem-solving skills and ability to debug complex issues",
+            "Familiarity with e-commerce industry and related technologies",
+            "Ability to communicate technical concepts to non-technical stakeholders",
+            "Experience with DevOps tools and practices",
+            "Understanding of software development best practices and ability to mentor junior team members"
+        ],
+    "Head of Infrastructure & Technical Support": [
+            "Strong leadership and management skills",
+            "Experience with IT infrastructure design, implementation, and management",
+            "Familiarity with network, compute, storage, and cloud technologies",
+            "Ability to develop and implement IT policies and architectural standards",
+            "Strong understanding of IT governance and compliance principles",
+            "Ability to manage and resolve complex technical issues",
+            "Experience with enterprise architecture and IT roadmap development",
+            "Strong communication skills to manage stakeholder expectations and provide technical guidance",
+            "Ability to mentor and develop team members"
+        ],
+    "Software Quality":[
+            "Strong analytical and problem-solving skills",
+            "Experience with software testing methodologies and tools",
+            "Ability to identify and mitigate risks in software development",
+            "Strong understanding of software development lifecycle and quality assurance processes",
+            "Ability to communicate effectively with development teams and stakeholders",
+            "Familiarity with automated testing tools and practices",
+            "Experience with measuring and driving product quality",
+            "Strong understanding of user experience and usability principles",
+            "Ability to assess and improve software performance",
+            "Strong communication skills to provide technical guidance and mentorship",
+            "Ability to keep up-to-date with latest technology trends and best practices"
+        ]
+
+    }

@@ -1,0 +1,27 @@
+{
+    
+    "Data": [
+        "The ideal job description includes responsibilities such as collaborating with cross-functional teams, analyzing and interpreting complex data sets, building and maintaining machine learning models, developing and maintaining data visualizations and reports, working with data engineers, staying up-to-date with latest technology trends, mentoring junior team members, and ensuring data-driven solutions are developed and implemented in accordance with data governance and ethical standards.",
+        "The original job description does not include all of these responsibilities, specifically missing are collaborating with cross-functional teams, analyzing and interpreting complex data sets, building and maintaining machine learning models, developing and maintaining data visualizations and reports, working with data engineers, staying up-to-date with latest technology trends, mentoring junior team members, and ensuring data-driven solutions are developed and implemented in accordance with data governance and ethical standards."
+    ],
+    "Developer": [
+        "Inadequate knowledge of software development methodologies and best practices.",
+        "Limited experience in designing and developing complex software systems.",
+        "Insufficient expertise in programming languages and technologies.",
+        "Lacking experience in mentoring and leading junior team members."
+    ],
+    "Head of Infrastructure & Technical Support": [
+        "Inadequate knowledge of IT infrastructure and technical support.",
+        "Limited experience in managing and leading IT teams.",
+        "Insufficient expertise in IT service management and delivery.",
+        "Lacking experience in creating and implementing IT policies and procedures."
+    ],
+    "Software Quality":[
+        "Focus on testing: The actual job responsibilities focus more on testing and quality assurance, while the ideal job responsibilities emphasize developing and executing test plans, identifying and tracking defects, and collaborating with software development teams to resolve issues.",
+        "Lack of focus on user experience: The actual job responsibilities do not mention anything about conducting usability testing or providing feedback on user experience, while the ideal job responsibilities include this as an important aspect of the role.",
+        "Limited collaboration with software development teams: The actual job responsibilities mention collaborating with software development teams, but the ideal job responsibilities emphasize this collaboration more and include resolving issues and improving software quality.",
+        "No mention of staying up-to-date with technology trends: The actual job responsibilities do not mention staying up-to-date with the latest technology trends and best practices in software testing and quality assurance, while the ideal job responsibilities include this as an important aspect of the role.",
+        "No mention of code reviews: The actual job responsibilities do not mention participating in code reviews or providing constructive feedback to peers, while the ideal job responsibilities include this as an important aspect of the role."
+    ]
+
+}

@@ -1,0 +1,66 @@
+{
+    "Activation": [
+        "Social Media Marketing",
+        "Campaign Planning and Execution",
+        "Content Creation and Management",
+        "Brand Management",
+        "Event planning and Management",
+        "Marketing analysis and Optimization"
+    ],
+    "Brand": [
+        "Brand Management",
+        "Marketing Strategy",
+        "Advertising",
+        "Consumer Insights",
+        "Market Research",
+        "Product Management"
+    ],
+    "Campaign": [
+        "Campaign Planning and Execution",
+        "Marketing Strategy",
+        "Advertising",
+        "Promotion Management",
+        "Budget Management",
+        "Project Management"
+    ],
+    "Performance": [
+        "Campaign Planning and Execution",
+        "Marketing Strategy",
+        "Advertising",
+        "Promotion Management",
+        "Budget Management",
+        "Project Management"
+    ],
+    "Creative Designer": [
+        "Graphic Design",
+        "Visual Communication",
+        "Branding",
+        "Marketing Strategy",
+        "Advertising",
+        "Promotion Management"
+    ],
+    "Head of Marketing": [
+        "Marketing Strategy",
+        "Brand Management",
+        "Advertising",
+        "Consumer Insights",
+        "Market Research",
+        "Team Management"
+    ],
+    "Partnership": [
+        "Partnership Management",
+        "Marketing Strategy",
+        "Advertising",
+        "Promotion Management",
+        "Budget Management",
+        "Project Management"
+    ],
+    "Campaign Performance": [
+        "Digital Marketing",
+        "Marketing Strategy",
+        "Advertising",
+        "Promotion Management",
+        "Budget Management",
+        "Project Management"
+    ]
+}

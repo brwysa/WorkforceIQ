@@ -1,0 +1,18 @@
+[
+    {
+        "Title": "Platform Designer",
+        "JobSummary": "As a Platform designer, your main role is to support the UX with engaging visual design, intuitive interaction design & applied best practices UI across channels and devices. As a Platform Designer you'll work closely with Engineers and Product Managers to design products that are simple but great for the user, focusing on interaction and visual design. Using your keen design aesthetic, you design and conduct experiments with real users so that improvements to the user experience are based on real user behavior. Your job is to make sure that our products are intuitive, accessible, and usable to our millions of users."
+    },
+    {
+        "Title": "Platform Engineer",
+        "JobSummary": "As Platform Engineer, you are responsible for designing, developing, documenting, debugging, and supporting the user interface to optimize the overall user experience (UX). This role focuses on articulating, developing, and modeling the end user experience, including the visual design of the application, to ensure user interaction is simple, efficient, and consistent. The Engineer actively participates in usability testing, user research, and interprets analytics data to assess and optimize the performance of new and existing features. Expertise in software technologies like JavaScript, Flash, XML, HTML, and CSS is essential for success in this role."
+    },
+    {
+        "Title": "Product Manager",
+        "JobSummary": "Build successful products/ features/ improvements"
+    },
+    {
+        "Title": "Researcher",
+        "JobSummary": "As UX Researcher, you will reveal what our users need from our products by conducting primary research, exploring the behaviors and motivations of our users, and working with teams of Designers, Product Managers, Engineers and others to develop new features. You’ll inspire change at all stages of product development by delivering exciting oral, written and visual presentations about our findings.  The goal is to develop deeper understandings of our customers and deliver findings that can translate insights into action. Most importantly, your job as a researcher is to help the UX team understand what would make a user’s experiences feel more intuitive, accessible, fun—and even magical."
+    }
+]

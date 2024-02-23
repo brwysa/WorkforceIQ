@@ -1,0 +1,199 @@
+{
+    "departments": [
+
+        {
+            "name": "Creative Designer",
+            "recommendedJobResponsibilities": [
+                "Plan, implement, and develop visual looks for content, products, and promotion programs within the category to ensure alignment with the category's looks and feels.",
+                "Update the latest trend on the market to gain insight that can improve visual communication in design.",
+                "Maintain communication and coordination with Content & Promotion to ensure visual communication aligns with the Work Order (WO).",
+                "Collaborate with Content & Promotion, Merchandising Manager, VP of Category, and SVP of Category to create an impactful promo.",
+                "Evaluate and improve the work process regularly.",
+                "Establish an action plan for self and others to complete work efficiently and on time by setting priorities.",
+                "Fulfill all tasks assigned by the superior."
+            ],
+            "reasoning": "To differentiate the job responsibilities, the Creative Designer's role should focus more on visual design, while the Head of Sales Excellence's role should focus on seller development and growth."
+        },
+        {
+            "name": "Head of Regional Sale",
+            "recommendedJobResponsibilities": [
+                "Develop a guidance that meets goals for quality, mix margin, and price through a core understanding of the e-commerce channel and cohesive product positioning.",
+                "Identify opportunities to drive top-line/revenue growth of the business by leveraging existing products and integrating customer behavior information into product and marketing efforts.",
+                "Collaborate closely with SVP, EVP of Group Category to drive sales and develop merchandising strategy through a deep expertise in quality, positioning, pricing, selection, and product development.",
+                "Work with Content & Marketing teams to design & launch special promotions/campaigns aimed at new/incubation/unrated sellers as well as run specific performance ads that help drive more traffic to such sellers.",
+                "Coordinate and collaborate closely with Category teams, especially Merchandiser, to jointly develop and execute projects that help new sellers grow their business on ABC."
+            ],
+            "reasoning": "To differentiate the job responsibilities, the Head of Regional Sale's role should focus more on developing guidance and merchandising strategy, while the Head of Sales Excellence's role should focus on seller development and growth."
+        },
+        {
+            "name": "Head of Sales Excellence",
+            "recommendedJobResponsibilities": [
+                "Collaborate closely with Category teams, especially Merchandiser, to jointly develop and execute projects that help new sellers grow their business on ABC.",
+                "Collaborate with Seller Activation & Engagement team to design & roll out mass as well as focused communication aimed at building awareness & visibility to specific features, tools, policies & processes, etc.",
+                "Develop a deep understanding of the various seller platform tools & features requirement that drive the seller progression from registration, onboarding & Go Live, business growth, and achievement & retention of Top rated performance.",
+                "Continuously benchmark & develop deep industry intelligence on best practices & capabilities offered across the seller experience journey by leading international & national e-commerce marketplaces.",
+                "Collaborate with Operations team to improve the effectiveness of Seller Care and to develop proactive programs to support seller requirements.",
+                "Provide management updates on Seller Development funnel progress; performance of key promotions & programs.",
+                "Provide feedback and development guidance to help team members with current or future job responsibilities."
+            ],
+            "reasoning": "To differentiate the job responsibilities, the Head of Sales Excellence's role should focus more on seller development and growth, while the Head of Sales Support's role should focus more on supporting seller requirements and improving the effectiveness of Seller Care."
+        },
+        {
+            "name": "Head of Sales Support",
+            "recommendedJobResponsibilities": [
+                "Developing the business flow, policies, shipping strategy, government regulation, and system improvement to cater to seamless onboarding and promote international products to the Indonesian market.",
+                "Focus on acquiring International Sellers within Southeast Asia.",
+                "Developing a strategy to expand Merchant Partner by Merchant's acquisitions and Merchants' activation nationwide, merchant acquisition being executed online and offline process; overseeing the system and process of acquiring within the activation period by promoting seller's products through promotion and other activities related to sales.",
+                "Building strategic partnerships with Governments to participate with Associations and Local players specific to UMKM to acquire specifically SME / UMKM manufacturers and liaise with Governments where to support the National campaigns to have Indonesia's UMKM go Digital.",
+                "Strategizing and executing various marketing activities that cover digital media marketing, events, community, with the sole purpose of promoting ABC.com as the right e-commerce platform for merchants to sell their products.",
+                "Overseeing and acquiring fast-moving products to be consigned to ABC's warehouse, aiming for fast fulfillment and gaining competitive advantages over the competition.",
+                "Nurturing Merchant Partner with the sole purpose of creating and maintaining learning content through the Learning Center by providing training, business policies, frequently asked questions, tips, and tricks for merchants.",
+                "Ensuring data validity and product live SLA improve within company expectation, including Product SKU creation process, back-end databases, Content Enrichment, Photography production to support the Online product detail catalogs.",
+                "Leading business process policies, operating procedures, due diligences, big data analysis, and compliances to achieve objectives and adopt ‘best practices’ to standardize and achieve world-class performance standards."
+            ],
+            "reasoning": "To differentiate the job responsibilities, the Head of Sales Support's role should focus more on supporting seller requirements and improving the effectiveness of Seller Care, while the Planner's role should focus more on planning, developing, and maintaining metrics, reports, analyses, dashboards, etc. to drive key business decisions."
+        },
+        {
+            "name": "Planner",
+            "recommendedJobResponsibilities": [
+                "Own the design, development, and maintenance of ongoing metrics, reports, analyses, dashboards, etc. to drive key business decisions.",
+                "Oversee demand planners to provide guidance to develop the best item/week/location forecasts to achieve inventory targets and sales.",
+                "Lead monthly meetings with VP to leverage consumer behavior and sales reports to develop monthly volume forecasts and drive alignment to the operational demand plan.",
+                "Lead inventory management process and strategy improvement by evaluating and identifying factors that impact department and item performance (e.g. sales, inventory, warehouse space); collaborating with stakeholders to gain alignment for recommendations; completing and maintaining inventory management system parameters in order to drive consistency and effectiveness.",
+                "Work with cross-functional teams and provide insight into the root cause of forecast error, developing and implementing solutions to drive continuous improvement and improve business decisions.",
+                "Review historical sales trends, research demand drivers, prepare forecast data, and develop/evaluate statistical forecast models.",
+                "Drive continuous improvement by analyzing current processes and implementing new forecasting methodologies, tools, and techniques to help improve forecast accuracy.",
+                "Establish an action plan for self and others to complete work efficiently and on time by setting priorities.",
+                "Fulfill all tasks assigned by the superior."
+            ],
+            "reasoning": "To differentiate the job responsibilities, the Planner's role should focus more on planning, developing, and maintaining metrics, reports, analyses, dashboards, etc. to drive key business decisions, while the Head of Sales Excellence's role should focus more on seller development and growth."
+        },
+        {
+          "name": "Sales Improvement",
+          "recommendedJobResponsibilities": [
+          "Develop and implement processes to optimize efficient process flow, reduce process or product variability, and improve process capability.",
+          "Verify and validate products and processes from process development to successful commercialization.",
+          "Evaluate current processes and provide recommendations for improvement.",
+          "Research and recommend new technologies to improve efficiency.",
+          "Take prompt action to accomplish work goals; taking action to achieve results beyond what is required; being proactive.",
+          "Conduct regular benchmarking over product and feature with competitor and deep industry intelligence to offer an excellent seller experience journey.",
+          "Conduct periodical research, FGD, and interview with seller to understand seller needs and issues as the basis for improvement initiatives.",
+          "Define, design, and implement new system features with technical and business assessment with collaboration with Product Owner, business owner, and operational team. Regularly provide gap analysis and recommendations for improvement over policies and procedures, features, and tools.",
+          "Lead business projects planning and execution, which requires extensive coordination and collaboration across business streams and technical teams within an agreed timeline.",
+          "Responsible for regular reporting to the Project Sponsor and key stakeholders regarding project progress.",
+          "Monitor the success of project or product implementation and drive continual improvement based on data analytics, regular feedback sessions, FGD.",
+          "Develop cost-benefit/ROI analysis as needed for any new business initiatives/new features development."
+          ],
+          "reasoning": "The job responsibilities of the Sales Director in the input data are too broad and overlap with other departments' responsibilities. The recommended job responsibilities focus on the director's role in managing and optimizing the sales process, while distinguishing them from other departments."
+          },
+          {
+          "name": "Sales Marketplace",
+          "recommendedJobResponsibilities": [
+          "Develop product category by acquiring potential new sellers both Official and Regular Store, while also maximizing growth of existing sellers through product optimization and effective promotions.",
+          "Identify the right potential seller to be acquired based on product scarcity and demand, including potential seller growth and collaborate with Lead Acquisition.",
+          "Develop a market analysis, target market/customer persona, competitive positioning, financial projection for seller along with Key Account Manager for Official Store – Brand Partner.",
+          "Create business/brand plan that covers campaign/event planning and cross collaboration.",
+          "Design effective promotion plan/calendar, coordinate and execute campaign & promotions within the category with Campaign and Content & Promotion Team.",
+          "Monitor and optimize seller operational and sales performance; seller commission, effectiveness on promotion support, net margin, and feature adoption.",
+          "Monitor seller's SKU performance both related to availability based on demand & planning projection, taking into consideration current trending products and historical performance.",
+          "Provide insight and recommendation plan to increase seller performance based on historical and developed forecast data.",
+          "Effective communication and maintain relationship with existing and potential sellers on a regular basis, including issues and operational challenges, setting up performance targets and campaign support."
+          ],
+          "reasoning": "The job responsibilities of the Sales Marketplace in the input data are too similar to those of the Sales Trading department. The recommended job responsibilities focus on the marketplace's role in developing and managing the seller's growth and performance, while distinguishing them from other departments."
+          },
+          {
+          "name": "Sales Trading",
+          "recommendedJobResponsibilities": [
+          "Identify the product variant availability based on market trend and historical performance.",
+          "Prospect local supplier sourcing for trading product to optimize product range availability and optimize product cost acquisition.",
+          "Analyze demand & planning based on market trend and historical performance.",
+          "Create business/brand plan that covers campaign/event planning and cross collaboration.",
+          "Liaise with internal Commercial and Operational Team in driving product availability and sales performance and better customer service level.",
+          "Design effective promotion plan/calendar, coordinate and execute campaign & promotions within the category with Campaign and Content & Promotion Team.",
+          "Monitor and maximize product profitability and define corrective actions both in sales and operational aspects.",
+          "Monitor and optimize seller operational and sales performance; seller commission, effectiveness on promotion support, net margin, and feature adoption.",
+          "Negotiate with partner in maximizing rebate and monitor the operational activities related to procure-to-pay process by coordinating with Finance Team and supplier."
+          ],
+          "reasoning": "The job responsibilities of the Sales Trading department in the input data are too similar to those of the Sales Marketplace department. The recommended job responsibilities focus on the trading department's role in managing and optimizing the product's availability and profitability, while distinguishing them from other departments."
+          },
+          {
+          "name": "Sales Trainer",
+          "recommendedJobResponsibilities": [
+          "Execute administrative training activity based on SLA (internal program), such as: check schedule of participants, send invitation, prepare training needs (venue, snack, gimmick, and other tools that trainer needs), send training evaluation, etc.",
+          "Execute administrative training activity based on SLA (public/external program), such as: check schedule of participants, register participants, send invitation, do payment based on agreement, etc.",
+          "Do recapitulation issues related to MTA from seller partner.",
+          "Maintain the merchant experience during onboarding.",
+          "Evaluate and do regular improvement in work process.",
+          "Report the implementation of work based on needs."
+          ],
+          "reasoning": "The job responsibilities of the Sales Trainer department in the input data are too similar to those of other departments. The recommended job responsibilities focus on the trainer's role in managing and executing training activities and maintaining the merchant experience, while distinguishing them from other departments."
+        },
+        {
+          "name": "Sales Admin",
+          "recommendedJobResponsibilities": [
+              "Develop and implement a streamlined on-boarding process for merchant partners to reduce time-to-market.",
+              "Improve the product upload process to increase efficiency and accuracy.",
+              "Enhance customer order fulfillment process to reduce delivery times and increase customer satisfaction.",
+              "Provide regular reports on merchant partner performance and suggest areas for improvement.",
+              "Lead employees to encourage maximum performance and dedication."
+          ],
+          "reasoning": "The job responsibilities of Sales Admin and Sales Digital have some overlap, such as monitoring and assisting in the process of uploading products for merchant partners. To differentiate the roles, the modified job responsibilities for Sales Admin focus on improving the on-boarding process, enhancing the product upload process, and providing regular reports on merchant partner performance."
+      },
+      {
+          "name": "Sales Digital",
+          "recommendedJobResponsibilities": [
+              "Develop and implement a comprehensive digital marketing strategy to increase brand awareness and drive traffic to the website.",
+              "Optimize the website for maximum SEO performance and user experience.",
+              "Manage and execute social media campaigns across multiple platforms to increase engagement and followership.",
+              "Analyze social media metrics and provide regular reports on performance.",
+              "Collaborate with other departments to ensure consistent brand messaging across all channels.",
+              "Lead employees to encourage maximum performance and dedication."
+          ],
+          "reasoning": "The job responsibilities of Sales Digital and Sales Community have some overlap, such as creating content and updates for the website, and managing social media campaigns. To differentiate the roles, the modified job responsibilities for Sales Digital focus on developing a comprehensive digital marketing strategy, optimizing the website for SEO performance, and managing social media campaigns across multiple platforms."
+      },
+      {
+          "name": "Sales Community",
+          "recommendedJobResponsibilities": [
+              "Develop and implement community engagement programs to increase brand awareness and drive sales.",
+              "Build and maintain strong partnerships with community leaders and merchant partners.",
+              "Plan and execute events and activities that align with the company's marketing strategy.",
+              "Analyze event performance and provide regular reports on community engagement.",
+              "Collaborate with other departments to ensure consistent brand messaging across all channels.",
+              "Lead employees to encourage maximum performance and dedication."
+          ],
+          "reasoning": "The job responsibilities of Sales Community and Sales Digital have some overlap, such as creating content and updates for the website, and managing social media campaigns. To differentiate the roles, the modified job responsibilities for Sales Community focus on developing community engagement programs, building and maintaining partnerships with community leaders and merchant partners, and planning and executing events and activities that align with the company's marketing strategy."
+      },
+      {
+          "name": "Sales Analytics",
+          "recommendedJobResponsibilities": [
+              "Lead the development and execution of advanced analytics projects to drive business growth.",
+              "Mentor and guide team members in advanced analytics techniques and programming languages.",
+              "Build and maintain strategic relationships with internal and external partners to ensure data integrity and gather insights.",
+              "Provide regular insights and recommendations to optimize business performance.",
+              "Develop and implement training programs to enhance team members' technical skills.",
+              "Lead employees to encourage maximum performance and dedication."
+          ],
+          "reasoning": "The job responsibilities of Sales Analytics and Sales Community have some overlap, such as analyzing data and providing insights. To differentiate the roles, the modified job responsibilities for Sales Analytics focus on leading the development and execution of advanced analytics projects, mentoring and guiding team members in advanced analytics techniques and programming languages, and building and maintaining strategic relationships with internal and external partners to ensure data integrity and gather insights."
+      },
+      {"name": "Sales Director",
+      "recommendedJobResponsibility": [
+        "Lead the development and execution of the company's growth strategy to achieve market penetration and sales growth.",
+        "Build and maintain collaborative relationships with internal and external stakeholders to drive business growth.",
+        "Develop and implement marketing and sales strategies across key market segments to optimize revenue growth.",
+        "Assess and manage necessary channels to deliver on the company's growth objectives.",
+        "Identify and pursue business development opportunities to drive top-line/revenue growth.",
+        "Ensure high-quality product development and customer experience.",
+        "Manage profit and loss for the Trade Partnership department."
+      ],
+      "reasoning":" Sales Director focus on leading the development and execution of the company's growth strategy, building and maintaining collaborative relationships with internal and external stakeholders, and developing and implementing marketing and sales strategies across key market segments to optimize revenue growth."
+    }
+  ],
+  "recommendation": [
+      "To differentiate the roles from Sales Digital and reduce overlap, the modified job responsibilities for Sales Admin focus on improving the on-boarding process, enhancing the product upload process, and providing regular reports on merchant partner performance.",
+      "To differentiate the roles from Sales Community and reduce overlap, the modified job responsibilities for Sales Digital focus on developing a comprehensive digital marketing strategy, optimizing the website for SEO performance, and managing social media campaigns across multiple platforms.",
+      "To differentiate the roles from Sales Digital and reduce overlap, the modified job responsibilities for Sales Community focus on developing community engagement programs, building and maintaining partnerships with community leaders and merchant partners, and planning and executing events and activities that align with the company's marketing strategy.",
+      "To differentiate the roles from Sales Community and reduce overlap, the modified job responsibilities for Sales Analytics focus on leading the development and execution of advanced analytics projects, mentoring and guiding team members in advanced analytics techniques and programming languages, and building and maintaining strategic relationships with internal and external partners to ensure data integrity and gather insights.",
+      "The job responsibilities of the Sales Marketplace in the input data are too similar to those of the Sales Trading department. The recommended job responsibilities focus on the marketplace's role in developing and managing the seller's growth and performance, while distinguishing them from other departments."
+    ]
+}
+  

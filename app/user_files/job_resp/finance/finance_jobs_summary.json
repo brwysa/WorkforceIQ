@@ -1,0 +1,17 @@
+{
+    "JobSummaries": [
+      {
+        "Department": "Finance Director",
+        "Responsibilities": "Direct and oversee financial activities, prepare financial reports, create forecasts, manage financial planning, supervision, management, and administration. Also, supervise legal practices for compliance and protection of company's interests."
+      },
+      {
+        "Department": "Finance",
+        "Responsibilities": "Manage financial activities including Accounting, Cash Management, Treasury, Tax, Cost & Budget Control."
+      },
+      {
+        "Department": "Legal",
+        "Responsibilities": "Provide legal advisory and services for compliance, protect company's interests, legal strategic planning, lead legal team, and act as a company representative."
+      }
+    ]
+  }
+  

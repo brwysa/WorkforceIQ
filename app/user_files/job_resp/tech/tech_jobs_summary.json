@@ -1,0 +1,21 @@
+{
+    "JobSummaries": [
+      {
+        "Department": "Data",
+        "responsibilities": "Assess, design, build and maintain models to solve problems. Seek to optimize models and drive insights to business/product teams."
+      },
+      {
+        "Department": "Developer",
+        "responsibilities": "As a Developer, you are responsible for planning and implementing technology applications for abc.com on time with the highest quality in collaboration with other departments: Product Management, Program and Project Management, as well as Infra and QA groups within the Tech department."
+      },
+      {
+        "Department": "Head of Infrastructure & Technical Support",
+        "responsibilities": "The Head of Infrastructure & Technical Support is responsible for managing the overall IT day-to-day operations to improve infrastructure costs, performance, and end-user satisfaction. Provides leadership in planning and managing systems, database administration, cybersecurity, network operations, PC/desktop support, and ensures systems performance and service requirements are met."
+      },
+      {
+        "Department": "Software Quality",
+        "responsibilities": "As a Software Quality professional, you are responsible for providing work leadership to Senior Product Quality, Product Quality, and Associate Product Quality. Assist the Product Quality Manager in designing and developing automated test systems to produce high-quality and high-performance software-based information systems."
+      }
+    ]
+  }
+  

@@ -1,0 +1,48 @@
+[
+    {
+        "department": "Finance Director",
+        "JobResponsibilities": [
+            "Supervise the business and budget of the Company and business units to ensure that performance is in accordance with the set budget.",
+            "Establish budget assumptions and business units as well as budget preparation guidelines to ensure that the budget prepared is realistic.",
+            "Directs the preparation of all financial statements, including income statements, balance sheets, shareholder reports, tax returns, and governmental agency reports.",
+            "Create and establish yearly financial objectives that align with the company's plan for growth and expansion.",
+            "Compares sales and profit projections to actual figures and budgeted expenses to actual expenses; makes or oversees any necessary adjustments to future projections and budgets.",
+            "Completing tax rights and obligations in accordance with applicable regulations and the implementation of Good Corporate Governance principles.",
+            "Ensure that the Company's accounting reporting process complies with applicable regulations.",
+            "Coordinating legal advice, ensuring compliance with legislation etc.",
+            "Works with the CEO and other executives to coordinate planning and establish priorities for the planning process.",
+            "Lead employees to encourage maximum performance and dedication"
+        ]
+    },
+    {
+        "department": "Finance",
+        "JobResponsibilities": [
+            "Establish budget assumptions and business units as well as budget preparation guidelines to ensure that the budget prepared is realistic.",
+            "Create and establish yearly financial objectives that align with the company's plan for growth and expansion.",
+            "Compares sales and profit projections to actual figures and budgeted expenses to actual expenses; makes or oversees any necessary adjustments to future projections and budgets.",
+            "Completing tax rights and obligations in accordance with applicable regulations and the implementation of Good Corporate Governance principles.",
+            "Manage financial planning and analysis department. Supervise creation of reports, software implementation and tools for budgeting and forecasting.",
+            "Prepare and present monthly financial budgeting reports including monthly profit and loss by division, forecast vs. budget and cash flow.",
+            "Mentor and develop team, managing work allocation, systems training, performance evaluations, and the building of an effective and efficient team dynamic.",
+            "Ensure that the Company's accounting reporting process complies with applicable regulations.",
+            "Lead employees to encourage maximum performance and dedication."
+        ]
+    },
+    {
+        "department": "Legal",
+        "JobResponsibilities": [
+            "Provide legal counsels and services for operational and business process and company management",
+            "Review and establish legal materials and regulations to protect company's business and interest",
+            "Provide legal services for acquisition process, joint venture, asset managements, and subsidiary's acquisition or liquidation process.",
+            "Manage and supervise external consultants hired to provide advises and guidance",
+            "Manage and monitor legal disputes and claims involving business and operational aspects",
+            "Review, establish, and manage systems and procedures to enhance efficiency and effectiveness of internal legal process",
+            "Review, distribute, and socialize legal aspects with related internal units.",
+            "Responsible and ensure accelerating and effectiveness of corporate project initiatives, including Identifying and resolving the obstacles, Establishing and maintaining SLA of project completeness, gathering commitment with any involved / related units,",
+            "Manage tracking and reporting of project status and provide project performance and recommend the improvement analysis",
+            "Identifying, formulating and recommend other initiatives to improve project result.",
+            "Leads, directs, evaluates, and develops teams to ensure the achievement of organizational goals.",
+            "Monitors and evaluates the performance of group and individual staff, recommending and implementing personnel actions, such as promotions and dismissals."
+        ]
+    }
+]
